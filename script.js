@@ -8,6 +8,7 @@ let arr = [];
 btn.addEventListener('click',
     () => {
         arr.push(new Date().toLocaleTimeString());
-        alert(arr);
+        let xx = 0;
+        btn.innerHTML = "SAVED " + arr.length;
     }
 )
