@@ -8,6 +8,6 @@ let arr = [];
 btn.addEventListener('click',
     () => {
         arr.push(new Date().toLocaleTimeString());
-        console.log(arr);
+        alert(arr);
     }
 )
